@@ -1,9 +1,10 @@
 # Visual System Softwares
 
 ![First view of site](images/VSS-start.png)
-Screenshot of first view of the main page.
+<p style="text-align: center">Screenshot of first view of the main page.</p>
 
 The objective of this project is to make a portfolio to our enterprise.
+
 Our objective is to spread our skills and projects to reach a clientele.
 
 ## Technologies used
@@ -25,12 +26,16 @@ With this slogan, our objective is to make a word game, showing to our clients t
 
 ## Font family
 The font family chosed is <b>Consolas</b>, 'cuz this is the default font family to Notepad, Notepad++ and VisualStudio/VSCode.
+
 The secondary font family chosed is <b>Courier New</b>, for the same reason.
+
 And if (for some kinda reason that even God coudn't explain) the user don't have any of those 2 fonts, then the site will appear with any monotype font installed.
 
 ## Color pallet
 The primary colors of the page are black and white, to make a biggest contrast.
+
 But we used a lot of other color to bring some life to the project and expand the contrast.
+
 Those colors are:
 * To scrollbar (on Chrome and webkit browsers)
     * Pink
@@ -57,12 +62,17 @@ Those colors are:
     * Gold
 
 ![Load page](images/VSS-load.png)
-The loader. (I'll try to make it a GIF to put here)
+<p style="text-align: center">The loader. (I'll try to make it a GIF to put here)</p>
 
 ## The menubar
 The menubar only appears as a <i>Hamburger Menu</i>, common on mobiles templates. That means that the site doesn't have the "default" navbar with links side by side, but a navbar that appears only when the user wants.
+
 This saves space in screen and time of development, besides being something different of the commom.
+
 Over it all, the when the menu is show, the page becomes blurry (still working and being scrollable, but blurry), to give the focus to it (menu).
 
 ![Hamburger menu](images/VSS-menu.png)
-The hamburger menu.
+<p style="text-align: center">The hamburger menu.</p>
+
+<hr>
+<p style="text-align: center">&copy;2020 - All rights reserved</p>
