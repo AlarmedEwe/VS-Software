@@ -10,7 +10,7 @@
 
 :root {
   font-size: 14pt;
-  font-family: Consolas, sans-serif;
+  font-family: Consolas, "Courier New", monospace;
 }
 
 ::-webkit-scrollbar {
@@ -109,6 +109,15 @@ footer h4, footer h5, footer h6 {
 }
 #navbar h1 {
   padding: 10px;
+}
+#navbar h1 a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+#navbar h1 img {
+  margin-right: 5px;
 }
 #navbar img {
   height: calc(1.5rem);

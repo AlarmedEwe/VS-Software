@@ -9,7 +9,7 @@
 }
 :root {
     font-size: 14pt;
-    font-family: Consolas, sans-serif;
+    font-family: Consolas, 'Courier New', monospace;
 }
 
 // Scrollbar
@@ -93,6 +93,15 @@ footer {
     }
     h1 {
         padding: 10px;
+
+        a {
+            display: flex;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+        }
+
+        img { margin-right: 5px; }
     }
     img {
         height: calc(1.5rem);
