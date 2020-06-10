@@ -1,0 +1,49 @@
+#load {
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 2000;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .load {
+        border-radius: 50%;
+        position: absolute;
+
+        &-black {
+            width: 170px;
+            height: 170px;
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 3;
+        }
+        &-1 {
+            width: 0;
+            height: 0;
+            border: 120px solid;
+            border-color: indigo lime maroon gold;
+            z-index: 2;
+            animation: load 2s infinite linear;
+        }
+        &-2 {
+            width: 0;
+            height: 0;
+            border: 150px solid;
+            border-color: #260 cyan purple orangered;
+            z-index: 1;
+            animation: load 2s reverse infinite linear;
+        }
+    }
+}
+
+@keyframes load {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(180deg); }
+    100% { transform: rotate(360deg); }
+}

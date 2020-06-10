@@ -5,17 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>VSS - Seu app em primeiro plano</title>
-    <link rel="shortcut icon" href="_img/Logo.jpg">
+    <title>VS Softwares - Seu app em primeiro plano</title>
+    <link rel="shortcut icon" href="_img/Logo-16.png">
 
-    <!-- My scripts -->
-    <link rel="stylesheet" href="_css/style.css">
-
+    <!-- Icons for bookmarks -->
+        <link rel="icon" href="_img/Logo-32.png" sizes="32x32" />
+        <link rel="icon" href="_img/Logo-64.png" sizes="64x64" />
+        <link rel="icon" href="_img/Logo-128.png" sizes="128x128" />
+        
     <!-- CSS Frameworks -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
     <!-- Angular.js -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    
+    <!-- My scripts -->
+    <link rel="stylesheet" href="_css/style.css">
 </head>
 <body data-ng-app="" data-ng-init="menu=false" style="overflow: hidden;">
     <div id="load">
@@ -33,7 +38,7 @@
     ]">
         <h1>
             <a href="#">
-                <img src="_img/Logo.jpg" alt="VSS"> Visual System Softwares
+                \S/ Softwares
             </a>
         </h1>
         <span id="toggleMenu" data-ng-click="menu = !menu">
@@ -58,70 +63,77 @@
 
         <!-- Grid -->
         <div class="col col-content-fst">
-            <div class="parallax" style="background-color: aquamarine;" data-from="right">
+            <div class="parallax" data-bg='{"color": "purple", "img": "_img/Responsivo.jpg"}' data-from="right">
                 <h2>Responsivo</h2>
                 <p>Seu site se encaixa perfeitamente em todos os dispositivos, desde celulares, computadores até televisões em 4K!</p>
             </div>
-            <div class="parallax" style="background-color: blueviolet;" data-from="left">
+            <div class="parallax" data-bg='{"color": "orange", "img": "_img/Assincrono.jpg"}' data-from="left">
                 <h2>Assíncrono</h2>
                 <p>Já imaginou um site com o mínimo de carregamentos possível? Bem vindo ao futuro!</p>
             </div>
         </div>
         <div class="col col-content-lst">
-            <div class="parallax" style="background-color: tomato;" data-from="right">
+            <div class="parallax" data-bg='{"color": "red", "img": "_img/SEO.jpg"}' data-from="right">
                 <h2>Otimizado para SEO</h2>
                 <p>Imagine seu site nas pimeiras páginas do Google! Com o Search Engine Optimization, alcançamos a melhor taxa de cliques!</p>
             </div>
-            <div class="parallax" style="background-color: darkkhaki;" data-from="left">
+            <div class="parallax" data-bg='{"color": "blueviolet", "img": "_img/Contato.jpg"}' data-from="left">
                 <h2>Formulários de contato</h2>
                 <p>Seu site é a porta de entrada para seus clientes, então por que não deixar um espaço para bilhetes?!</p>
             </div>
         </div>
         <div class="col col-content-fst">
-            <div class="parallax" style="background-color: deepskyblue;" data-from="right">
+            <div class="parallax" data-bg='{"color": "orange", "img": "_img/multiplataforma.jpg"}' data-from="right">
                 <h2>Apps multiplataformas</h2>
                 <p>Já pensou em ter um aplicativo também no android ou no PC? Nós desenvemos para todos os sistemas! Linux, Windows, Mac, iOS, Android...</p>
             </div>
-            <div class="parallax" style="background-color: lightgreen;" data-from="left">
-                <h2>Título</h2>
-                <p>Mussum Ipsum, cacilds vidis litro abertis. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Aenean aliquam molestie leo, vitae iaculis nisl. Casamentiss faiz malandris se pirulitá. Atirei o pau no gatis, per gatis num morreus.Mussum Ipsum, cacilds vidis litro abertis. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Aenean aliquam molestie leo, vitae iaculis nisl. Casamentiss faiz malandris se pirulitá. Atirei o pau no gatis, per gatis num morreus.</p>
+            <div class="parallax" data-bg='{"color": "purple", "img": "_img/Newsletters.jpg"}' data-from="left">
+                <h2>Newsletters</h2>
+                <p>Quer manter seus clientes informados? Também desenvolvemos sistemas de newsletters para enviar notícias periódicas via email para eles!</p>
             </div>
         </div>
 
         <!-- Preços -->
+        <!--
+            <div id="prices">
+                <h1>Pre&ccedil;os</h1>
+                <div class="price-top" data-from="left">
+                    <h1>Site one page</h1>
+                    <h2>R$480,00</h2>
+                    <ul>
+                        <li>Páginas: 1</li>
+                        <li>Uso mínimo de multimídia</li>
+                    </ul>
+                </div>
+                <div class="price-top" data-from="right">
+                    <h1>Site simples</h1>
+                    <h2>R$800,00</h2>
+                    <ul>
+                        <li>Páginas: 5</li>
+                        <li>Uso mínimo de multimídia</li>
+                        <li>Dinâmico</li>
+                    </ul>
+                </div>
+                <div class="price-bottom" data-from="bottom">
+                    <h1>Site corporativo personalizado</h1>
+                    <h2>R$1300,00</h2>
+                    <ul>
+                        <li>Páginas: 10</li>
+                        <li>Uso intensivo de multimídia</li>
+                        <li>Dinâmico</li>
+                        <li>CSS personalizado</li>
+                        <li>Gerenciador de conteúdo</li>
+                        <li>Newsletter</li>
+                        <li>Otimização para lead</li>
+                    </ul>
+                </div>
+                <a href="">Mais opções de pacote</a>
+            </div>
+        -->
         <div id="prices">
             <h1>Pre&ccedil;os</h1>
-            <div class="price-top" data-from="left">
-                <h1>Site one page</h1>
-                <h2>R$480,00</h2>
-                <ul>
-                    <li>Páginas: 1</li>
-                    <li>Uso mínimo de multimídia</li>
-                </ul>
-            </div>
-            <div class="price-top" data-from="right">
-                <h1>Site simples</h1>
-                <h2>R$800,00</h2>
-                <ul>
-                    <li>Páginas: 5</li>
-                    <li>Uso mínimo de multimídia</li>
-                    <li>Dinâmico</li>
-                </ul>
-            </div>
-            <div class="price-bottom" data-from="bottom">
-                <h1>Site corporativo personalizado</h1>
-                <h2>R$1300,00</h2>
-                <ul>
-                    <li>Páginas: 10</li>
-                    <li>Uso intensivo de multimídia</li>
-                    <li>Dinâmico</li>
-                    <li>CSS personalizado</li>
-                    <li>Gerenciador de conteúdo</li>
-                    <li>Newsletter</li>
-                    <li>Otimização para lead</li>
-                </ul>
-            </div>
-            <a href="">Mais opções de pacote</a>
+            <p>Entre em contato conosco e faça uma cotação!</p>
+            <a href="#">Fazer cotação</a>
         </div>
 
         <!-- Clientes -->
@@ -182,7 +194,7 @@
                 <div>
                     <div class="col col-content-lst">
                         <div>
-                            <i class="far fa-fw fa-3x fa-envelope"></i>
+                            <i class="far fa-fw fa-envelope"></i>
                         </div>
                         <div>
                             <h3>Email</h3>
@@ -192,7 +204,7 @@
                     </div>
                     <div class="col col-content-lst">
                         <div>
-                            <i class="fab fa-fw fa-3x fa-whatsapp"></i>
+                            <i class="fab fa-fw fa-whatsapp"></i>
                         </div>
                         <div>
                             <h3>Whatsapp</h3>
@@ -201,7 +213,7 @@
                     </div>
                     <div class="col col-content-lst">
                         <div>
-                            <i class="fab fa-fw fa-3x fa-linkedin"></i>
+                            <i class="fab fa-fw fa-linkedin"></i>
                         </div>
                         <div>
                             <h3>LinkedIn</h3>
@@ -215,6 +227,7 @@
         </footer>
     </main>
 
+    <script src="./_js/bg.js"></script>
     <script>
         'use strict';
 

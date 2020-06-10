@@ -18,7 +18,7 @@ To make this project where used the technologies bellow:
 * Programming Languages
     * JavaScript
 * Frameworks
-    * [SCSS](https://sass-lang.com/)
+    * [Sass](https://sass-lang.com/)
     * [Angular.js](https://angularjs.org/)
 * Image edition softwares
     * [Photopea](https://www.photopea.com/)
@@ -45,6 +45,10 @@ The primary colors of the page are black and white, to make a biggest contrast.
 But we used a lot of other color to bring some life to the project and expand the contrast.
 
 Those colors are:
+* Primary colors
+    * Purple
+    * Red
+    * Orange
 * To scrollbar (on Chrome and webkit browsers)
     * Pink
     * Purple

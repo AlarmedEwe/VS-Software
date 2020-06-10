@@ -1,0 +1,33 @@
+footer {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+
+    input, textarea {
+        background-color: #050505;
+        border: 1px solid #666;
+        color: white;
+    }
+    a {
+        color: #666;
+    }
+
+    .col-content-lst {
+        grid-template-columns: 15% 70%;
+        .far, .fab { font-size: 2em; }
+        @media (min-width: 500px) {
+            grid-template-columns: 30% 70%;
+            .far, .fab { font-size: 3em; }
+        }
+        div:first-child{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    h1, h2, h3,
+    h4, h5, h6 {
+        padding: 5px;
+        margin-bottom: 0;
+    }
+}

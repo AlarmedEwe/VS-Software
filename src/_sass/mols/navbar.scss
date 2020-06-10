@@ -1,0 +1,37 @@
+#navbar {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    background-color: black;
+    color: white;
+
+    & + * {
+        margin-top: calc(1.5rem + 25px);
+    }
+    h1 {
+        padding: 10px;
+
+        a {
+            display: flex;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+        }
+
+        img { margin-right: 5px; }
+    }
+    img {
+        height: calc(1.5rem);
+    }
+    #toggleMenu {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+}
