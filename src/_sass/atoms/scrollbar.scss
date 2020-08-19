@@ -4,7 +4,7 @@
     &-track { background-color: black; }
     &-thumb {
         border-radius: 5px;
-        background-image: linear-gradient(purple, red, orange, yellow);
-        &:hover { background-color: #666; background-image: none; }
+        background-image: linear-gradient(#44bbff, #246bff, #49368e, #8866DD);
+        &:hover { background-color: #49368e; background-image: none; }
     }
 }
