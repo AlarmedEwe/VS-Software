@@ -1,0 +1,20 @@
+// Sistema de colunas
+.col {
+    display: grid;
+
+    @media (min-width: 800px){
+        &-2 {
+            grid-template-columns: 50% 50%;
+        }
+    }
+    &-content {
+        @media(min-width: 950px){
+            &-fst {
+                grid-template-columns: 60% 40%;
+            }
+            &-lst {
+                grid-template-columns: 40% 60%;
+            }
+        }
+    }
+}
